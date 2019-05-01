@@ -19,11 +19,14 @@ Ademas, tendremos nuestro proyecto separado, así si tenemos un error en la vist
 
 Expliquemos un poco que hace cada parte del patrón MVC:
 
-### <p style="color:red">Agricultor</p>
+#### MODELO
 
-### <p style="color:salmon">Agricultor</p>
+Se encarga de los datos, generalmente consultando la base de datos. Actualizaciones, consultas, búsquedas, etc. 
+En el modelo de GlobalCampo 2.0 se inclute las conexiones con la BBDD, la clase del login y todas las clases que incluye nuestro proyecto (Poda.java // Recolecta.java...)
 
-### <p style="color:salmon">Agricultor</p>
+#### VISTA
+
+#### CONTROLADOR
 
 Una vez estamos dentro del panel de control ( _newhtml2.html_ ); podemos observar como tenemos dos perfiles: **Agricultor** y **Gestión**
 
