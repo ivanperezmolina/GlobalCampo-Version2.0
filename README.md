@@ -12,20 +12,18 @@ A lo largo de este repositorio voy a explicar las principales diferencias entre 
 #### 🌲COMENCEMOS🌲
 
 
-## 
+## Separemos nuestro proyecto en Modelo - Vista- Controlador
 
-Una vez ejecutamos el proyecto _GlobalCampo_ en NetBeans se nos abrirá la página _index.html_
+La razón principal por la que nos interesa separar cuanto antes nuestro proyecto en MVC es la seguirdad y comodidad que tenemos sabiendo que cuando hacemos un cambio en alguna parte de nuestro código, esto no afecte otra parte del mismo.
+Ademas, tendremos nuestro proyecto separado, así si tenemos un error en la vista que mostramos al usuario; no es necesario revisar un documento que incluya todo el código mezclado.
 
-En esta página simplemente encontramos una portada del proyecto en la cual podemos acceder a las redes sociales del desarrollador y tenemos un botón **ENTRAR** el cual nos lleva al panel de control
+Expliquemos un poco que hace cada parte del patrón MVC:
 
-<p align="center"> 
+### <p style="color:salmon">Agricultor</p>
 
-<img src="Fotos/1.png">
+### <p style="color:salmon">Agricultor</p>
 
-</p>
-
-
-## Panel de control de GlobalCampo
+### <p style="color:salmon">Agricultor</p>
 
 Una vez estamos dentro del panel de control ( _newhtml2.html_ ); podemos observar como tenemos dos perfiles: **Agricultor** y **Gestión**
 
