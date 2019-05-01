@@ -19,7 +19,7 @@ Ademas, tendremos nuestro proyecto separado, así si tenemos un error en la vist
 
 Expliquemos un poco que hace cada parte del patrón MVC:
 
-### <p style="color:salmon">Agricultor</p>
+### <p style="color:red">Agricultor</p>
 
 ### <p style="color:salmon">Agricultor</p>
 
