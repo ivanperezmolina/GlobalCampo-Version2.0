@@ -8,7 +8,7 @@ Bien, despues de dos meses de formación, de nuevas ideas y también de alguna r
 A lo largo de este repositorio voy a explicar las principales diferencias entre la versión 1.0 y la versión 2.0. Así que recomiendo antes de ver esta nueva versión, la lectura de la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0).
 
 
-#### ☘COMENCEMOS☘
+#### 🌲COMENCEMOS🌲
 
 #
 
