@@ -19,7 +19,7 @@ Ademas, tendremos nuestro proyecto separado, así si tenemos un error en la vist
 
 <p align="center"> 
 
-<img src="Fotos/Diagrama mvc.jpg">
+<img src="Fotos/diagrama.jpg">
 
 </p>
 
