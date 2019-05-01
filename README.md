@@ -1,28 +1,32 @@
 # GlobalCampo-Version2.0
-Nuestra lema: "Ayudamos al agricultor a gestionar su campo "
+Mantenemos nuestro lema: "Ayudar al agricultor a gestionar su campo "
 
-### Idea del CRUD
+### Presentación a la versión 2.0
 
-El objetivo principal de este CRUD es hacer la vida más facil tanto al agricultor como al equipo de gestión de las cooperativas. Ya es hora de dejar de hacer las cosas a papel y pasarnos al mundo dígital
+Bien, despues de dos meses de formación, de nuevas ideas y también de alguna reflexiones; ya esta con nosotros la versión 2.0 de Globalcampo.
 
-#### ☘COMENCEMOS☘
+A lo largo de este repositorio voy a explicar las principales diferencias entre la versión 1.0 y la versión 2.0. Así que recomiendo antes de ver esta nueva versión, la lectura de la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0).
 
 #
 
-## Indice
-
-Una vez ejecutamos el proyecto _GlobalCampo_ en NetBeans se nos abrirá la página _index.html_
-
-En esta página simplemente encontramos una portada del proyecto en la cual podemos acceder a las redes sociales del desarrollador y tenemos un botón **ENTRAR** el cual nos lleva al panel de control
-
-<p align="center"> 
-
-<img src="Fotos/1.png">
-
-</p>
+#### 🌲COMENCEMOS🌲
 
 
-## Panel de control de GlobalCampo
+## Separemos nuestro proyecto en Modelo - Vista- Controlador
+
+La razón principal por la que nos interesa separar cuanto antes nuestro proyecto en MVC es la seguirdad y comodidad que tenemos sabiendo que cuando hacemos un cambio en alguna parte de nuestro código, esto no afecte otra parte del mismo.
+Ademas, tendremos nuestro proyecto separado, así si tenemos un error en la vista que mostramos al usuario; no es necesario revisar un documento que incluya todo el código mezclado.
+
+Expliquemos un poco que hace cada parte del patrón MVC:
+
+#### MODELO
+
+Se encarga de los datos, generalmente consultando la base de datos. Actualizaciones, consultas, búsquedas, etc. 
+En el modelo de GlobalCampo 2.0 se inclute las conexiones con la BBDD, la clase del login y todas las clases que incluye nuestro proyecto (Poda.java // Recolecta.java...)
+
+#### VISTA
+
+#### CONTROLADOR
 
 Una vez estamos dentro del panel de control ( _newhtml2.html_ ); podemos observar como tenemos dos perfiles: **Agricultor** y **Gestión**
 
