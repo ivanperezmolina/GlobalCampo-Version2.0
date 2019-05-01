@@ -1,9 +1,12 @@
 # GlobalCampo-Version2.0
-Nuestra lema: "Ayudamos al agricultor a gestionar su campo "
+Mantenemos nuestro lema: "Ayudar al agricultor a gestionar su campo "
 
-### Idea del CRUD
+### Presentación a la versión 2.0
 
-El objetivo principal de este CRUD es hacer la vida más facil tanto al agricultor como al equipo de gestión de las cooperativas. Ya es hora de dejar de hacer las cosas a papel y pasarnos al mundo dígital
+Bien, despues de dos meses de formación, de nuevas ideas y también de alguna reflexiones; ya esta con nosotros la versión 2.0 de Globalcampo.
+
+A lo largo de este repositorio voy a explicar las principales diferencias entre la versión 1.0 y la versión 2.0. Así que recomiendo antes de ver esta nueva versión, la lectura de la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0).
+
 
 #### ☘COMENCEMOS☘
 
