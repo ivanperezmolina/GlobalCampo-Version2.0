@@ -7,6 +7,8 @@ Bien, despues de dos meses de formación, de nuevas ideas y también de alguna r
 
 A lo largo de este repositorio voy a explicar las principales diferencias entre la versión 1.0 y la versión 2.0. Así que recomiendo antes de ver esta nueva versión, la lectura de la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0).
 
+<i>Una novedad importante es que cambiamos de IDE, la versión 1 fue desarrollada en NetBeans y esta 2º versión ha sido desarrollada en Eclipse JEE, ya que para la separación en MVC y para más cosas es bastante más comodo este IDE</i>
+
 #
 
 #### 🌲COMENCEMOS🌲
