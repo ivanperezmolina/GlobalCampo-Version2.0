@@ -74,7 +74,13 @@ El DAO va a incluir todas las "sentencias SQL" que vamos a hacer a la BBDD.
 
 ## Pongamos un "logueo" y un "registrar" a GlobalCampo2.0
 
-Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0) podiamos ver que al entrar en el panel de control podiamos tener acceso total a la aplicación, sin importar quien fueramos.
+Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0) podiamos ver que al entrar en el panel de control podiamos tener acceso total a la aplicación, sin importar quien fueramos:
+
+<p align="center"> 
+
+<img src="Fotos/panelviejo.png">
+
+</p>
 
 En esta 2º versión esto ha cambiado, ya tenemos nuestra pantalla en la cual podemos loguearnos (dependiendo de si somos un agricultor o un gerente de cooperativa) y también podemos solicitar un registro en la aplicación de GlobalCampo; vamos a ver cada una de las pantallas:
 
@@ -82,12 +88,30 @@ En esta 2º versión esto ha cambiado, ya tenemos nuestra pantalla en la cual po
 
 Esta vez, cuando ejecutamos nuestro proyecto nos encontramos directamente con una pantalla la cual nos pide un usuario y contraseña; tenemos la opción de entrar con un usuario y contraseña que tengamos o bien solicitar un registro.
 
+<p align="center"> 
+
+<img src="Fotos/pantallainicio.png">
+
+</p>
+
 #### Solicitud de registro
 
-En esta pantalla, un usuario podrá solicitar que le den acceso a la aplicación para ello debe completar una serie de campos como son: su nombre, su correo electrónico, su teléfono y algún comentario. Una vez este todo bien rellenado la aplicación redirige a nuestra aplicación de correo favorita y envia un correo al equipo de administración de GlobalCampo para dar de alta al usuario
+En esta pantalla, un usuario podrá solicitar que le den acceso a la aplicación para ello debe completar una serie de campos como son: su nombre, su correo electrónico, su teléfono y algún comentario. 
+
+<p align="center"> 
+
+<img src="Fotos/registro.png">
+
+</p>
+
+Una vez este todo bien rellenado la aplicación redirige a nuestra aplicación de correo favorita y envia un correo al equipo de administración de GlobalCampo para dar de alta al usuario
 
 
+<p align="center"> 
 
+<img src="Fotos/registro2.png">
+
+</p>
 
 
 
