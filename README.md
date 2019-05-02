@@ -120,7 +120,7 @@ Una vez este todo bien rellenado la aplicación redirige a nuestra aplicación d
 
 Un requisito necesario en esta nueva versión de nuestro CRUD es añadir variables de sesión; despues de un largo estudio he visto mejor añadirlas en dos partes de mi proyecto; veamoslo:
 
-### Identificador de persona el la barra de arriba
+### Identificador de persona en la barra de arriba
 
 Una vez hemos accedido a GlobalCampo (bien como gestor o como agricultor); podemos ver que nuestro nombre (con el cual estemos registrados) se muestra en la parte superior con la opción de cerrar sesión. 
 
@@ -166,6 +166,33 @@ El código que se encarga de todo esto es el siguiente:
 
 <p style="text-align: right;"> Hola <%=sesion.getAttribute("nombre") %> ||  <a href="index.jsp?cerrar=true">Cerrar Sesión</a></p>
 ``` 
+
+### Seguridad en cada página
+
+Es posible que alguien intente acceder a GlobalCampo como administrador sin serlo; me explico. Alguien ha copiado la dirección de la página de los administradores e intenta acceder a partir de ella; pues esto no es posible gracias al siguiente código que se encarga de que la persona forzosamente tenga que hacer un login para disfrutar de GlobalCampo:
+
+
+``` java
+ <%-- AÑADO SEGURIDAD PARA QUE TENGAN QUE PASAR POR EL LOGIN --%>
+    <%
+    
+    HttpSession sesion = request.getSession();
+    
+    if(sesion.getAttribute("nivel")==null){
+    	response.sendRedirect("index.jsp");
+    	
+    }else{
+    	String nivel = sesion.getAttribute("nivel").toString();
+    	if(!nivel.equals("1")){
+    		response.sendRedirect("index.jsp");    		
+    	}
+    }
+    
+    
+    %>
+``` 
+
+
 
 <hr><hr>
 
