@@ -124,6 +124,16 @@ Un requisito necesario en esta nueva versión de nuestro CRUD es añadir variabl
 
 Una vez hemos accedido a GlobalCampo (bien como gestor o como agricultor); podemos ver que nuestro nombre (con el cual estemos registrados) se muestra en la parte superior con la opción de cerrar sesión. 
 
+<p align="center"> 
+
+<img src="Fotos/variablesesion1.png">
+
+</p>
+
+El código que se encarga de todo esto es el siguiente:
+
+#### 1º pantalla
+
 ``` java
 	HttpSession sesion = request.getSession();
     int nivel =0;
@@ -150,6 +160,12 @@ Una vez hemos accedido a GlobalCampo (bien como gestor o como agricultor); podem
 	
 ```
 
+#### 2º pantalla
+
+``` java
+
+<p style="text-align: right;"> Hola <%=sesion.getAttribute("nombre") %> ||  <a href="index.jsp?cerrar=true">Cerrar Sesión</a></p>
+``` 
 
 <hr><hr>
 
