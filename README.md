@@ -71,6 +71,8 @@ El DAO va a incluir todas las "sentencias SQL" que vamos a hacer a la BBDD.
 
 </p>
 
+#
+#
 
 ## Pongamos un "logueo" y un "registrar" a GlobalCampo2.0
 
@@ -113,7 +115,8 @@ Una vez este todo bien rellenado la aplicación redirige a nuestra aplicación d
 
 </p>
 
-
+#
+#
 
 
 
