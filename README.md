@@ -74,7 +74,18 @@ El DAO va a incluir todas las "sentencias SQL" que vamos a hacer a la BBDD.
 
 ## Pongamos un "logueo" y un "registrar" a GlobalCampo2.0
 
-La razón principal por la que nos interesa separar cuanto antes nuestro proyecto en MVC es la seguirdad y comodidad que tenemos sabiendo que cuand
+Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0) podiamos ver que al entrar en el panel de control podiamos tener acceso total a la aplicación, sin importar quien fueramos.
+
+En esta 2º versión esto ha cambiado, ya tenemos nuestra pantalla en la cual podemos loguearnos (dependiendo de si somos un agricultor o un gerente de cooperativa) y también podemos solicitar un registro en la aplicación de GlobalCampo; vamos a ver cada una de las pantallas:
+
+#### Pantalla principal
+
+Esta vez, cuando ejecutamos nuestro proyecto nos encontramos directamente con una pantalla la cual nos pide un usuario y contraseña; tenemos la opción de entrar con un usuario y contraseña que tengamos o bien solicitar un registro.
+
+#### Solicitud de registro
+
+En esta pantalla, un usuario podrá solicitar que le den acceso a la aplicación para ello debe completar una serie de campos como son: su nombre, su correo electrónico, su teléfono y algún comentario. Una vez este todo bien rellenado la aplicación redirige a nuestra aplicación de correo favorita y envia un correo al equipo de administración de GlobalCampo para dar de alta al usuario
+
 
 
 
