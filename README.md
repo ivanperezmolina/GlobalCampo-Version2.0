@@ -84,7 +84,7 @@ Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolin
 
 En esta 2º versión esto ha cambiado, ya tenemos nuestra pantalla en la cual podemos loguearnos (dependiendo de si somos un agricultor o un gerente de cooperativa) y también podemos solicitar un registro en la aplicación de GlobalCampo; vamos a ver cada una de las pantallas:
 
-#### Pantalla principal
+### Pantalla principal
 
 Esta vez, cuando ejecutamos nuestro proyecto nos encontramos directamente con una pantalla la cual nos pide un usuario y contraseña; tenemos la opción de entrar con un usuario y contraseña que tengamos o bien solicitar un registro.
 
@@ -94,7 +94,7 @@ Esta vez, cuando ejecutamos nuestro proyecto nos encontramos directamente con un
 
 </p>
 
-#### Solicitud de registro
+### Solicitud de registro
 
 En esta pantalla, un usuario podrá solicitar que le den acceso a la aplicación para ello debe completar una serie de campos como son: su nombre, su correo electrónico, su teléfono y algún comentario. 
 
