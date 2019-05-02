@@ -116,6 +116,16 @@ Una vez este todo bien rellenado la aplicación redirige a nuestra aplicación d
 
 <hr><hr>
 
+## Incluimos variables de sesión a nuestro CRUD
+
+Un requisito necesario en esta nueva versión de nuestro CRUD es añadir variables de sesión; despues de un largo estudio he visto mejor añadirlas en dos partes de mi proyecto; veamoslo:
+
+### Identificador de persona el la barra de arriba
+
+Una vez hemos accedido a GlobalCampo (bien como gestor o como agricultor); podemos ver que nuestro nombre (con el cual estemos registrados) se muestra en la parte superior con la opción de cerrar sesión. 
+
+
+<hr><hr>
 
 
 
