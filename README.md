@@ -27,7 +27,7 @@ Ademas, tendremos nuestro proyecto separado, así si tenemos un error en la vist
 
 Expliquemos un poco que hace cada parte del patrón MVC:
 
-#### MODELO
+### MODELO
 
 Se encarga de los datos, generalmente consultando la base de datos. Actualizaciones, consultas, búsquedas, etc. 
 En el modelo de GlobalCampo 2.0 se incluyem las conexiones con la BBDD, la clase del login y todas las clases que incluye nuestro proyecto (Poda.java // Recolecta.java...)
@@ -38,7 +38,7 @@ En el modelo de GlobalCampo 2.0 se incluyem las conexiones con la BBDD, la clase
 
 </p>
 
-#### VISTA
+### VISTA
 
 Son la representación visual de los datos, todo lo que tenga que ver con la interfaz gráfica va aquí. Ni el modelo ni el controlador se preocupan de cómo se verán los datos, esa responsabilidad es únicamente de la vista. 
 En la vista de GlobalCampo 2.0 se incluyen los ficheros .jsp que será lo que el usuario vea (index.jsp // editarPoda.jsp...)
@@ -49,7 +49,7 @@ En la vista de GlobalCampo 2.0 se incluyen los ficheros .jsp que será lo que el
 
 </p>
 
-#### CONTROLADOR
+### CONTROLADOR
 
 Se encarga de... controlar, recibe las órdenes del usuario y se encarga de solicitar los datos al modelo y de comunicárselos a la vista.
 Es lo que se conoce como un Servlet, el cual va a gestionar todo
@@ -61,7 +61,7 @@ Los servlet que incluye GlobalCampo 2.0 son los que para cada acción del agricu
 
 </p>
 
-#### DAO (Objeto de acceso a datos)
+### DAO (Objeto de acceso a datos)
 
 El DAO va a incluir todas las "sentencias SQL" que vamos a hacer a la BBDD. 
 
