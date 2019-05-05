@@ -200,20 +200,39 @@ Es posible que alguien intente acceder a GlobalCampo como administrador sin serl
 
 Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0) veiamos que a la de modificar o registrar un cultivo, poda... la persona que fuera a hacer dicha tarea tenía todo en una misma página y tenía que apañarselas con los iconos.
 
+<p align="center"> 
+
+<img src="Fotos/botonantes.png">
+
+</p>
+
 <i>He llegado a la conclusión de que es mejor dejar cada tarea bien diferenciada ya que he presentado el proyecto de GlobalCampo a varios agricultores de mi familia y todos compartian la misma opinión, veian mejor separar tareas</i>; por eso en esta nueva versión incluimos dentro de una misma gestión las tareas bien diferenciadas.
-
-### Identificador de persona en la barra de arriba
-
-Una vez hemos accedido a GlobalCampo (bien como gestor o como agricultor); podemos ver que nuestro nombre (con el cual estemos registrados) se muestra en la parte superior con la opción de cerrar sesión. 
 
 <p align="center"> 
 
-<img src="Fotos/variablesesion1.png">
+<img src="Fotos/botonahora.png">
 
 </p>
 
 
+<hr><hr>
 
+## Despedida
+
+Bien, pues hasta aquí los cambios incorporados a la versión 2 de GlobalCampo. Como siempre recordar que estamos en continuo desarrollo; así que pronto habrá una nueva versión con mejor diseño, manejo y de todo
+
+<i>Si quieres dar alguna idea puedes enviar un e-mail a ivan.perez.8500@gmail.com</i>
+
+### ¡Nuevas funciones que todavía están en desarrollo!
+
+Estoy trabajando en incluir nuevas funciones como un botón para ver la localización de nuestros cultivos, otro para llamar a nuestra cooperativa o al gerente de algún fertilizante; dejo alguna captura muy temprana de esas innovaciones:
+
+
+<p align="center"> 
+
+<img src="Fotos/botonantes.png">
+
+</p>
 
 #### ☘VIDEO EXPLICATIVO☘
 
