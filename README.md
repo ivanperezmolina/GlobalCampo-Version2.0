@@ -1,7 +1,7 @@
 # GlobalCampo-Version2.0
 Mantenemos nuestro lema: "Ayudar al agricultor a gestionar su campo "
 
-### Presentación a la versión 2.0
+### Presentación de la versión 2.0
 
 Bien, despues de dos meses de formación, de nuevas ideas y también de algunas reflexiones; ya esta con nosotros la versión 2.0 de Globalcampo.
 
@@ -16,8 +16,8 @@ A lo largo de este repositorio voy a explicar las principales diferencias entre 
 
 ## Separemos nuestro proyecto en Modelo - Vista- Controlador
 
-La razón principal por la que nos interesa separar cuanto antes nuestro proyecto en MVC es la seguirdad y comodidad que tenemos sabiendo que cuando hacemos un cambio en alguna parte de nuestro código, esto no afecte otra parte del mismo.
-Ademas, tendremos nuestro proyecto separado, así si tenemos un error en la vista que mostramos al usuario; no es necesario revisar un documento que incluya todo el código mezclado.
+La razón principal por la que nos interesa separar cuanto antes nuestro proyecto en MVC es la seguirdad y comodidad que tenemos sabiendo que cuando hacemos un cambio en alguna parte de nuestro código, esto no afectara a otra parte del mismo.
+Ademas si tenemos un error en la vista que mostramos al usuario; no es necesario revisar un documento que incluya todo el código mezclado.
 
 <p align="center"> 
 
@@ -30,7 +30,7 @@ Expliquemos un poco que hace cada parte del patrón MVC:
 ### MODELO
 
 Se encarga de los datos, generalmente consultando la base de datos. Actualizaciones, consultas, búsquedas, etc. 
-En el modelo de GlobalCampo 2.0 se incluyem las conexiones con la BBDD, la clase del login y todas las clases que incluye nuestro proyecto (Poda.java // Recolecta.java...)
+En el modelo de GlobalCampo 2.0 se incluyen las conexiones con la BBDD, la clase del login y todas las clases que incluye nuestro proyecto (Poda.java // Recolecta.java...)
 
 <p align="center"> 
 
@@ -52,7 +52,7 @@ En la vista de GlobalCampo 2.0 se incluyen los ficheros .jsp que será lo que el
 ### CONTROLADOR
 
 Se encarga de... controlar, recibe las órdenes del usuario y se encarga de solicitar los datos al modelo y de comunicárselos a la vista.
-Es lo que se conoce como un Servlet, el cual va a gestionar todo
+Es lo que se conoce como un Servlet, el cual va a gestionar todo.
 Los servlet que incluye GlobalCampo 2.0 son los que para cada acción del agricultor se debe administrar (un servlet para las podas, otro para las recolectas...)
 
 <p align="center"> 
@@ -198,7 +198,7 @@ Es posible que alguien intente acceder a GlobalCampo como administrador sin serl
 
 ## Un diseño mas intuitivo
 
-Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0) veiamos que a la de modificar o registrar un cultivo, poda... la persona que fuera a hacer dicha tarea tenía todo en una misma página y tenía que apañarselas con los iconos.
+Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0) veiamos que a la hora de modificar o registrar un cultivo, poda... la persona que fuera a hacer dicha tarea tenía todo en una misma página y tenía que apañarselas con los iconos.
 
 <p align="center"> 
 
