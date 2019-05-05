@@ -230,7 +230,7 @@ Estoy trabajando en incluir nuevas funciones como un botón para ver la localiza
 
 <p align="center"> 
 
-<img src="Fotos/botonantes.png">
+<img src="Fotos/nuevo.png">
 
 </p>
 
