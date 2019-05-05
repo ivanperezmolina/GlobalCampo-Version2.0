@@ -215,7 +215,24 @@ Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolin
 </p>
 
 
+<hr><hr>
 
+## Despedida
+
+Bien, pues hasta aquí los cambios incorporados a la versión 2 de GlobalCampo. Como siempre recordar que estamos en continuo desarrollo; así que pronto habrá una nueva versión con mejor diseño, manejo y de todo
+
+<i>Si quieres dar alguna idea puedes enviar un e-mail a ivan.perez.8500@gmail.com</i>
+
+### ¡Nuevas funciones que todavía están en desarrollo!
+
+Estoy trabajando en incluir nuevas funciones como un botón para ver la localización de nuestros cultivos, otro para llamar a nuestra cooperativa o al gerente de algún fertilizante; dejo alguna captura muy temprana de esas innovaciones:
+
+
+<p align="center"> 
+
+<img src="Fotos/botonantes.png">
+
+</p>
 
 #### ☘VIDEO EXPLICATIVO☘
 
