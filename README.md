@@ -3,11 +3,11 @@ Mantenemos nuestro lema: "Ayudar al agricultor a gestionar su campo "
 
 ### Presentación de la versión 2.0
 
-Bien, despues de dos meses de formación, de nuevas ideas y también de algunas reflexiones; ya esta con nosotros la versión 2.0 de Globalcampo.
+Bien, después de dos meses de formación, de nuevas ideas y también de algunas reflexiones; ya está con nosotros la versión 2.0 de Globalcampo.
 
-A lo largo de este repositorio voy a explicar las principales diferencias entre la versión 1.0 y la versión 2.0. Así que recomiendo antes de ver esta nueva versión, la lectura de la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0).
+A lo largo de este repositorio voy a explicar las principales diferencias entre la versión 1.0 y la versión 2.0. Así que, recomiendo antes de ver esta nueva versión, la lectura de la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0).
 
-<i>Una novedad importante es que cambiamos de IDE, la versión 1 fue desarrollada en NetBeans y esta 2º versión ha sido desarrollada en Eclipse JEE, ya que para la separación en MVC y para más cosas es bastante más comodo este IDE</i>
+<i>Una novedad importante es que cambiamos de IDE, la versión 1 fue desarrollada en NetBeans y esta 2º versión ha sido desarrollada en Eclipse JEE, ya que para la separación en MVC y para más cosas es bastante más cómodo este IDE</i>
 
 #
 
@@ -16,8 +16,8 @@ A lo largo de este repositorio voy a explicar las principales diferencias entre 
 
 ## Separemos nuestro proyecto en Modelo - Vista- Controlador
 
-La razón principal por la que nos interesa separar cuanto antes nuestro proyecto en MVC es la seguirdad y comodidad que tenemos sabiendo que cuando hacemos un cambio en alguna parte de nuestro código, esto no afectara a otra parte del mismo.
-Ademas si tenemos un error en la vista que mostramos al usuario; no es necesario revisar un documento que incluya todo el código mezclado.
+La razón principal por la que nos interesa separar cuanto antes nuestro proyecto en MVC es la seguridad y comodidad que tenemos sabiendo que cuando hacemos un cambio en alguna parte de nuestro código, esto no afectara a otra parte de este.
+Además, si tenemos un error en la vista que mostramos al usuario; no es necesario revisar un documento que incluya todo el código mezclado.
 
 <p align="center"> 
 
@@ -75,7 +75,7 @@ El DAO va a incluir todas las "sentencias SQL" que vamos a hacer a la BBDD.
 
 ## Pongamos un "logueo" y un "registrar" a GlobalCampo2.0
 
-Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0) podiamos ver que al entrar en el panel de control podiamos tener acceso total a la aplicación, sin importar quien fueramos:
+Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0) podíamos ver que al entrar en el panel de control teníamos acceso total a la aplicación, sin importar quien fuéramos:
 
 <p align="center"> 
 
@@ -105,7 +105,7 @@ En esta pantalla, un usuario podrá solicitar que le den acceso a la aplicación
 
 </p>
 
-Una vez este todo bien rellenado la aplicación redirige a nuestra aplicación de correo favorita y envia un correo al equipo de administración de GlobalCampo para dar de alta al usuario
+Una vez este todo bien rellenado la aplicación redirige a nuestra aplicación de correo favorita y envía un correo al equipo de administración de GlobalCampo para dar de alta al usuario
 
 
 <p align="center"> 
@@ -118,7 +118,7 @@ Una vez este todo bien rellenado la aplicación redirige a nuestra aplicación d
 
 ## Incluimos variables de sesión a nuestro CRUD
 
-Un requisito necesario en esta nueva versión de nuestro CRUD es añadir variables de sesión; despues de un largo estudio he visto mejor añadirlas en dos partes de mi proyecto; veamoslo:
+Un requisito necesario en esta nueva versión de nuestro CRUD es añadir variables de sesión; después de un largo estudio he visto mejor añadirlas en dos partes de mi proyecto; veámoslo:
 
 ### Identificador de persona en la barra de arriba
 
@@ -196,9 +196,9 @@ Es posible que alguien intente acceder a GlobalCampo como administrador sin serl
 
 <hr><hr>
 
-## Un diseño mas intuitivo
+## Un diseño más intuitivo
 
-Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0) veiamos que a la hora de modificar o registrar un cultivo, poda... la persona que fuera a hacer dicha tarea tenía todo en una misma página y tenía que apañarselas con los iconos.
+Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolina/GlobalCampo-Version1.0) veíamos que a la hora de modificar o registrar un cultivo, poda... la persona que fuera a hacer dicha tarea tenía todo en una misma página y tenía que apañárselas con los iconos.
 
 <p align="center"> 
 
@@ -206,7 +206,7 @@ Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolin
 
 </p>
 
-<i>He llegado a la conclusión de que es mejor dejar cada tarea bien diferenciada ya que he presentado el proyecto de GlobalCampo a varios agricultores de mi familia y todos compartian la misma opinión, veian mejor separar tareas</i>; por eso en esta nueva versión incluimos dentro de una misma gestión las tareas bien diferenciadas.
+<i>He llegado a la conclusión de que es mejor dejar cada tarea bien diferenciada ya que he presentado el proyecto de GlobalCampo a varios agricultores de mi familia y todos compartían la misma opinión, veían mejor separar tareas</i>; por eso en esta nueva versión incluimos dentro de una misma gestión las tareas bien diferenciadas.
 
 <p align="center"> 
 
@@ -219,7 +219,7 @@ Si recordamos la [versión 1.0 de Globalcampo](https://github.com/ivanperezmolin
 
 ## Despedida
 
-Bien, pues hasta aquí los cambios incorporados a la versión 2 de GlobalCampo. Como siempre recordar que estamos en continuo desarrollo; así que pronto habrá una nueva versión con mejor diseño, manejo y de todo
+Bien, pues hasta aquí los cambios incorporados a la versión 2 de GlobalCampo. Como siempre hay que recordar que estamos en continuo desarrollo; así que pronto habrá una nueva versión con mejor diseño, manejo y de todo
 
 <i>Si quieres dar alguna idea puedes enviar un e-mail a ivan.perez.8500@gmail.com</i>
 
