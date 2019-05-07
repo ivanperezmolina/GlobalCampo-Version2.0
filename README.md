@@ -236,7 +236,7 @@ Estoy trabajando en incluir nuevas funciones como un botón para ver la localiza
 
 #### ☘VIDEO EXPLICATIVO☘
 
-https://youtu.be/BXZDCDlUeuc
+https://youtu.be/UERyK6cMyLY
 
 
 
